@@ -1,0 +1,19 @@
+# robots.txt for Gemilang Katun Outbound
+# https://www.gemilangkatun.com
+
+User-agent: *
+Allow: /
+
+# Mengizinkan semua crawler untuk mengakses semua halaman
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# Sitemap
+Sitemap: https://www.gemilangkatun.com/sitemap.xml
+
+# Disallow admin/system files
+Disallow: /tmp/
+Disallow: /.git/
